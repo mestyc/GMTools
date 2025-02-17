@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="退出ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 34</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="文件ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 28</value>
+  </data>
+  <data name="文件ToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="总在最前ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 34</value>
+  </data>
+  <data name="总在最前ToolStripMenuItem.Text" xml:space="preserve">
+    <value>总在最前</value>
+  </data>
+  <data name="设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 28</value>
+  </data>
+  <data name="设置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>设置(&amp;P)</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 34</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="帮助ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 28</value>
+  </data>
+  <data name="帮助ToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 3, 0, 3</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>891, 34</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Key_button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Key_button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 82</value>
+  </data>
+  <data name="Key_button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Key_button2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Key_button2.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="&gt;&gt;Key_button2.Name" xml:space="preserve">
+    <value>Key_button2</value>
+  </data>
+  <data name="&gt;&gt;Key_button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Key_button2.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Key_button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Hexreckon_radioButton2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hexreckon_radioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hexreckon_radioButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 74</value>
+  </data>
+  <data name="Hexreckon_radioButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hexreckon_radioButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="Hexreckon_radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Hexreckon_radioButton2.Text" xml:space="preserve">
+    <value>- 3</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton2.Name" xml:space="preserve">
+    <value>Hexreckon_radioButton2</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton2.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Hexreckon_radioButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hexreckon_radioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Hexreckon_radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 40</value>
+  </data>
+  <data name="Hexreckon_radioButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hexreckon_radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
+  </data>
+  <data name="Hexreckon_radioButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Hexreckon_radioButton1.Text" xml:space="preserve">
+    <value>+ 3</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton1.Name" xml:space="preserve">
+    <value>Hexreckon_radioButton1</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton1.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Hexreckon_radioButton1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Key_textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 30</value>
+  </data>
+  <data name="Key_textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Key_textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Key_textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox2.Name" xml:space="preserve">
+    <value>Key_textBox2</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox2.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Key_button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Key_button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 82</value>
+  </data>
+  <data name="Key_button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Key_button1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Key_button1.Text" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="&gt;&gt;Key_button1.Name" xml:space="preserve">
+    <value>Key_button1</value>
+  </data>
+  <data name="&gt;&gt;Key_button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Key_button1.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Key_button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Key_textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 33</value>
+  </data>
+  <data name="Key_textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_textBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Key_textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Key_textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Key_textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox1.Name" xml:space="preserve">
+    <value>Key_textBox1</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox1.Parent" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Key_textBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Key_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 370</value>
+  </data>
+  <data name="Key_groupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_groupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Key_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 142</value>
+  </data>
+  <data name="Key_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Key_groupBox.Text" xml:space="preserve">
+    <value>钥匙启动</value>
+  </data>
+  <data name="&gt;&gt;Key_groupBox.Name" xml:space="preserve">
+    <value>Key_groupBox</value>
+  </data>
+  <data name="&gt;&gt;Key_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Key_groupBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Key_groupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ID_button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ID_button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 87</value>
+  </data>
+  <data name="ID_button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="ID_button2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ID_button2.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="&gt;&gt;ID_button2.Name" xml:space="preserve">
+    <value>ID_button2</value>
+  </data>
+  <data name="&gt;&gt;ID_button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_button2.Parent" xml:space="preserve">
+    <value>ID_groupBox</value>
+  </data>
+  <data name="&gt;&gt;ID_button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ID_button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ID_button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 87</value>
+  </data>
+  <data name="ID_button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="ID_button1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ID_button1.Text" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="&gt;&gt;ID_button1.Name" xml:space="preserve">
+    <value>ID_button1</value>
+  </data>
+  <data name="&gt;&gt;ID_button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_button1.Parent" xml:space="preserve">
+    <value>ID_groupBox</value>
+  </data>
+  <data name="&gt;&gt;ID_button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ID_textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 36</value>
+  </data>
+  <data name="ID_textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="ID_textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ID_textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox2.Name" xml:space="preserve">
+    <value>ID_textBox2</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox2.Parent" xml:space="preserve">
+    <value>ID_groupBox</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ID_textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 36</value>
+  </data>
+  <data name="ID_textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_textBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ID_textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="ID_textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ID_textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox1.Name" xml:space="preserve">
+    <value>ID_textBox1</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox1.Parent" xml:space="preserve">
+    <value>ID_groupBox</value>
+  </data>
+  <data name="&gt;&gt;ID_textBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ID_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 192</value>
+  </data>
+  <data name="ID_groupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_groupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ID_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 142</value>
+  </data>
+  <data name="ID_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ID_groupBox.Text" xml:space="preserve">
+    <value>ID 转换</value>
+  </data>
+  <data name="&gt;&gt;ID_groupBox.Name" xml:space="preserve">
+    <value>ID_groupBox</value>
+  </data>
+  <data name="&gt;&gt;ID_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ID_groupBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;ID_groupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Km_button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Km_button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 82</value>
+  </data>
+  <data name="Km_button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Km_button4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Km_button4.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="&gt;&gt;Km_button4.Name" xml:space="preserve">
+    <value>Km_button4</value>
+  </data>
+  <data name="&gt;&gt;Km_button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_button4.Parent" xml:space="preserve">
+    <value>Km_groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Km_textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 33</value>
+  </data>
+  <data name="Km_textBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_textBox3.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Km_textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Km_textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Km_textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox3.Name" xml:space="preserve">
+    <value>Km_textBox3</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox3.Parent" xml:space="preserve">
+    <value>Km_groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Km_button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Km_button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 82</value>
+  </data>
+  <data name="Km_button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Km_button3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Km_button3.Text" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="&gt;&gt;Km_button3.Name" xml:space="preserve">
+    <value>Km_button3</value>
+  </data>
+  <data name="&gt;&gt;Km_button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_button3.Parent" xml:space="preserve">
+    <value>Km_groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_button3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Km_textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 33</value>
+  </data>
+  <data name="Km_textBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Km_textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Km_textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox4.Name" xml:space="preserve">
+    <value>Km_textBox4</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox4.Parent" xml:space="preserve">
+    <value>Km_groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Km_groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 370</value>
+  </data>
+  <data name="Km_groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 142</value>
+  </data>
+  <data name="Km_groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Km_groupBox2.Text" xml:space="preserve">
+    <value>HEX转换公里数</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox2.Name" xml:space="preserve">
+    <value>Km_groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Km_button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Km_button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 87</value>
+  </data>
+  <data name="Km_button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Km_button2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Km_button2.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="&gt;&gt;Km_button2.Name" xml:space="preserve">
+    <value>Km_button2</value>
+  </data>
+  <data name="&gt;&gt;Km_button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_button2.Parent" xml:space="preserve">
+    <value>Km_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Km_textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 30</value>
+  </data>
+  <data name="Km_textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Km_textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Km_textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox2.Name" xml:space="preserve">
+    <value>Km_textBox2</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox2.Parent" xml:space="preserve">
+    <value>Km_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Km_textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 32</value>
+  </data>
+  <data name="Km_textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_textBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Km_textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="Km_textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Km_textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox1.Name" xml:space="preserve">
+    <value>Km_textBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox1.Parent" xml:space="preserve">
+    <value>Km_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_textBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Km_button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Km_button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 87</value>
+  </data>
+  <data name="Km_button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 38</value>
+  </data>
+  <data name="Km_button1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Km_button1.Text" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="&gt;&gt;Km_button1.Name" xml:space="preserve">
+    <value>Km_button1</value>
+  </data>
+  <data name="&gt;&gt;Km_button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_button1.Parent" xml:space="preserve">
+    <value>Km_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Km_groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 192</value>
+  </data>
+  <data name="Km_groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Km_groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 142</value>
+  </data>
+  <data name="Km_groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Km_groupBox1.Text" xml:space="preserve">
+    <value>公里数转换HEX</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox1.Name" xml:space="preserve">
+    <value>Km_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Km_groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Hex_button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 98</value>
+  </data>
+  <data name="Hex_button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="Hex_button3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Hex_button3.Text" xml:space="preserve">
+    <value>拷贝HEX</value>
+  </data>
+  <data name="&gt;&gt;Hex_button3.Name" xml:space="preserve">
+    <value>Hex_button3</value>
+  </data>
+  <data name="&gt;&gt;Hex_button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_button3.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_button3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Hex_button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 32</value>
+  </data>
+  <data name="Hex_button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="Hex_button2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Hex_button2.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="&gt;&gt;Hex_button2.Name" xml:space="preserve">
+    <value>Hex_button2</value>
+  </data>
+  <data name="&gt;&gt;Hex_button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_button2.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_button2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Hex_button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 98</value>
+  </data>
+  <data name="Hex_button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 34</value>
+  </data>
+  <data name="Hex_button1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Hex_button1.Text" xml:space="preserve">
+    <value>VIN转换</value>
+  </data>
+  <data name="&gt;&gt;Hex_button1.Name" xml:space="preserve">
+    <value>Hex_button1</value>
+  </data>
+  <data name="&gt;&gt;Hex_button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_button1.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_button1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Hex_textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 100</value>
+  </data>
+  <data name="Hex_textBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 28</value>
+  </data>
+  <data name="Hex_textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox2.Name" xml:space="preserve">
+    <value>Hex_textBox2</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox2.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Hex_textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 44</value>
+  </data>
+  <data name="Hex_textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_textBox1.MaxLength" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Hex_textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 28</value>
+  </data>
+  <data name="Hex_textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox1.Name" xml:space="preserve">
+    <value>Hex_textBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox1.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_textBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Hex_label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hex_label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 48</value>
+  </data>
+  <data name="Hex_label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Hex_label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 18</value>
+  </data>
+  <data name="Hex_label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Hex_label2.Text" xml:space="preserve">
+    <value>请输入正确VIN，17位数</value>
+  </data>
+  <data name="&gt;&gt;Hex_label2.Name" xml:space="preserve">
+    <value>Hex_label2</value>
+  </data>
+  <data name="&gt;&gt;Hex_label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_label2.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Hex_label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hex_label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 105</value>
+  </data>
+  <data name="Hex_label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Hex_label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="Hex_label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Hex_label3.Text" xml:space="preserve">
+    <value>HEX</value>
+  </data>
+  <data name="&gt;&gt;Hex_label3.Name" xml:space="preserve">
+    <value>Hex_label3</value>
+  </data>
+  <data name="&gt;&gt;Hex_label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_label3.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Hex_label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hex_label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 48</value>
+  </data>
+  <data name="Hex_label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Hex_label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 18</value>
+  </data>
+  <data name="Hex_label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Hex_label1.Text" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <data name="&gt;&gt;Hex_label1.Name" xml:space="preserve">
+    <value>Hex_label1</value>
+  </data>
+  <data name="&gt;&gt;Hex_label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_label1.Parent" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Hex_groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="Hex_groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Hex_groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 158</value>
+  </data>
+  <data name="Hex_groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Hex_groupBox1.Text" xml:space="preserve">
+    <value>VIN转换16进制</value>
+  </data>
+  <data name="&gt;&gt;Hex_groupBox1.Name" xml:space="preserve">
+    <value>Hex_groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Hex_groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hex_groupBox1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;Hex_groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="tabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 598</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>数据转换</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 42</value>
+  </data>
+  <data name="tabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>894, 630</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 17</value>
+  </metadata>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 15</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 683</value>
+  </data>
+  <data name="statusStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 21, 0</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>891, 22</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>244, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>63</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>891, 705</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYAMwAABAAAMwQzADMEMzMABBYW
+        FgQcHBwEIiIiBCkpKQRVVVUETU1NBEJCQgQ5OTkEgHz/BFBQ/wSTANYE/+zMBMbW7wTW5+cEkKmtBAD/
+        MwQAAGYEAACZBAAAzAQAMwAEADMzBAAzZgQAM5kEADPMBAAz/wQAZgAEAGYzBABmZgQAZpkEAGbMBABm
+        /wQAmQAEAJkzBACZZgQAmZkEAJnMBACZ/wQAzAAEAMwzBADMZgQAzJkEAMzMBADM/wQA/2YEAP+ZBAD/
+        zAQz/wAE/wAzBDMAZgQzAJkEMwDMBDMA/wT/MwAEMzMzBDMzZgQzM5kEMzPMBDMz/wQzZgAEM2YzBDNm
+        ZgQzZpkEM2bMBDNm/wQzmQAEM5kzBDOZZgQzmZkEM5nMBDOZ/wQzzAAEM8wzBDPMZgQzzJkEM8zMBDPM
+        /wQz/zMEM/9mBDP/mQQz/8wEM///BGYAAARmADMEZgBmBGYAmQRmAMwEZgD/BGYzAARmMzMEZjNmBGYz
+        mQRmM8wEZjP/BGZmAARmZjMEZmZmBGZmmQRmZswEZpkABGaZMwRmmWYEZpmZBGaZzARmmf8EZswABGbM
+        MwRmzJkEZszMBGbM/wRm/wAEZv8zBGb/mQRm/8wEzAD/BP8AzASZmQAEmTOZBJkAmQSZAMwEmQAABJkz
+        MwSZAGYEmTPMBJkA/wSZZgAEmWYzBJkzZgSZZpkEmWbMBJkz/wSZmTMEmZlmBJmZmQSZmcwEmZn/BJnM
+        AASZzDMEZsxmBJnMmQSZzMwEmcz/BJn/AASZ/zMEmcxmBJn/mQSZ/8wEmf//BMwAAASZADMEzABmBMwA
+        mQTMAMwEmTMABMwzMwTMM2YEzDOZBMwzzATMM/8EzGYABMxmMwSZZmYEzGaZBMxmzASZZv8EzJkABMyZ
+        MwTMmWYEzJmZBMyZzATMmf8EzMwABMzMMwTMzGYEzMyZBMzMzATMzP8EzP8ABMz/MwSZ/2YEzP+ZBMz/
+        zATM//8EzAAzBP8AZgT/AJkEzDMABP8zMwT/M2YE/zOZBP8zzAT/M/8E/2YABP9mMwTMZmYE/2aZBP9m
+        zATMZv8E/5kABP+ZMwT/mWYE/5mZBP+ZzAT/mf8E/8wABP/MMwT/zGYE/8yZBP/MzAT/zP8E//8zBMz/
+        ZgT//5kE///MBGZm/wRm/2YEZv//BP9mZgT/Zv8E//9mBCEApQRfX18Ed3d3BIaGhgSWlpYEy8vLBLKy
+        sgTX19cE3d3dBOPj4wTq6uoE8fHxBPj4+ATw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8A////////////////////////////////////////////////////////////////////////
+        //////////////+1z8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz7X//64EBAQEBAQEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQErv//zwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBATP///PBAQEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBM///88EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEz///zwQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEBATP///PBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBM///88EBAQE
+        BIb///////////////////+1BAQEBAQEz///zwQEBAQEhv/////1//X//////////88EBAQEBATP///P
+        BAQEBAQE////////////////////zwQEBAQEBM///88EBAQEBARfX19fX18EX19fX19fX18EBAQEBAQE
+        z///zwQEBAQEBK7/////zwSG//+G8s//864EBAQEBATP///PBAQEBAQE////////BK7//8//tf//zwQE
+        BAQEBM///88EBAQEBIb//1/P//8Erv//z/8J///PBAQEBAQEz///zwQEBAQEhv//X67//wSu////////
+        /88EBAQEBATP///PBAQEBASG//8E////BK7/////9P//zwQEBAQEBM///88EBAQEBIb//4b///8Erv//
+        9Ib////PBAQEBAQEz///zwQEBAQEhv//XwRfBASu////hv///88EBAQEBATP///PBAQEBASG//8EBKeG
+        BK7///8E9P//zwQEBAQEBM///88EBAQEBIb//19f//8Erv///wTD///PBAQEBAQEz///zwQEBAQEBP/1
+        BAT//wSu//8JBIb//88EBAQEBATP///PBAQEBAQE////9P//BK7//7UErv//zwQEBAQEBM///88EBAQE
+        BAQE///0bQQEhvHdrgSG3RnPBAQEBAQEz///zwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBATP///P
+        BAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBM///88EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE
+        z///zwQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBATP//+uBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE
+        BAQEBK7//7XPz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Ptf//////////////////////////////
+        /////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GMTools</value>
+  </data>
+  <data name="&gt;&gt;文件ToolStripMenuItem.Name" xml:space="preserve">
+    <value>文件ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;文件ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;退出ToolStripMenuItem.Name" xml:space="preserve">
+    <value>退出ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;退出ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;设置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>设置ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;设置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;总在最前ToolStripMenuItem.Name" xml:space="preserve">
+    <value>总在最前ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;总在最前ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Name" xml:space="preserve">
+    <value>帮助ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关于ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer.Name" xml:space="preserve">
+    <value>timer</value>
+  </data>
+  <data name="&gt;&gt;timer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

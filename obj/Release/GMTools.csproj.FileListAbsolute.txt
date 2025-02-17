@@ -1,0 +1,9 @@
+C:\123213\GMTools-main\GMTools-main\bin\Release\GMTools.exe
+C:\123213\GMTools-main\GMTools-main\bin\Release\GMTools.pdb
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.csproj.AssemblyReference.cache
+C:\123213\GMTools-main\GMTools-main\obj\Release\Main.Main.resources
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.Properties.Resources.resources
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.csproj.GenerateResource.cache
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.csproj.CoreCompileInputs.cache
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.exe
+C:\123213\GMTools-main\GMTools-main\obj\Release\GMTools.pdb
